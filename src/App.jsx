@@ -78,7 +78,7 @@ const equalTo = () => {
         readOnly
       />
 
-      {/* Row 1 */}
+      
       <div className="row g-2 mb-2">
         <div className="col-4">
           <div onClick={() => allClear('DEL')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">AC</div>
@@ -91,7 +91,7 @@ const equalTo = () => {
         </div>
       </div>
 
-      {/* Row 2 */}
+     
       <div className="row g-2 mb-2">
         <div className="col-3"><div onClick={() => display('7')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">7</div></div>
         <div className="col-3"><div onClick={() => display('8')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">8</div></div>
@@ -99,7 +99,7 @@ const equalTo = () => {
         <div className="col-3"><div onClick={() => display('*')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">*</div></div>
       </div>
 
-      {/* Row 3 */}
+      
       <div className="row g-2 mb-2">
         <div className="col-3"><div onClick={() => display('4')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">4</div></div>
         <div className="col-3"><div onClick={() => display('5')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">5</div></div>
@@ -107,7 +107,7 @@ const equalTo = () => {
         <div className="col-3"><div onClick={() => display('-')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">-</div></div>
       </div>
 
-      {/* Row 4 */}
+      
       <div className="row g-2 mb-2">
         <div className="col-3"><div onClick={() => display('1')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">1</div></div>
         <div className="col-3"><div onClick={() => display('2')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">2</div></div>
@@ -115,7 +115,7 @@ const equalTo = () => {
         <div className="col-3"><div onClick={() => display('+')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">+</div></div>
       </div>
 
-      {/* Row 5 */}
+      
       <div className="row g-2">
         <div className="col-3"><div onClick={() => display('.')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">.</div></div>
         <div className="col-3"><div onClick={() => display('0')} className="btn w-100 h-100 border shadow text-white fw-bold fs-5">0</div></div>
